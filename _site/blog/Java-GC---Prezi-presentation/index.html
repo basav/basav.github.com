@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Java GC - Prezi presentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">     	
+	<link rel="shortcut icon" href="/favicon.ico">    
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+	Included file 'navigation.html' not found in _includes directory   
+	<div class="container">	
+		<div class="marketing">
+		<div class="content">    
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'basav'; // required: replace example with your forum shortname
+		var disqus_identifier = '/blog/Java-GC---Prezi-presentation';
+		var disqus_url = 'http://basav.github.com/blog/Java-GC---Prezi-presentation';
+
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function () {
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	</script>
+<div class="row">
+	<p><h1>Java GC - Prezi presentation</h1></p>	
+	<div class="span3 column">
+		<h4><strong>August 19, 2011 <small>.  . <a href="http://basav.github.com/blog/Java-GC---Prezi-presentation#disqus_thread" data-disqus-identifier="/blog/Java-GC---Prezi-presentation">Comments</a></small></strong>
+		<br/><small>Tags:  </small></h4>
+	</div>		
+	<div class="span9 column">
+		<p class="pull-right"> <a href="/blog/Java-EE-6-Development-with-NetBeans-7" title="Previous Post: Java EE 6 Development with NetBeans 7"><i class="icon-chevron-left"></i></a> 	    	<a href="/blog/NoSQL-Presentation" title="Next Post: NoSQL Presentation"><i class="icon-chevron-right"></i></a> 	 </p>  
+	</div>
+</div>
+<div class="row">
+	<div class="span12 column">
+		<hr>
+	</div>
+</div>
+
+    <div class="prezi-player"><style media="screen" type="text/css">.prezi-player { width: 425px; } .prezi-player-links { text-align: center; } </style><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="400" id="prezi_lzofqasgefim" name="prezi_lzofqasgefim" width="550"><param name="movie" value="http://prezi.com/bin/preziloader.swf"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="bgcolor" value="#ffffff"/><param name="flashvars" value="prezi_id=lzofqasgefim&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"/><embed id="preziEmbed_lzofqasgefim" name="preziEmbed_lzofqasgefim" src="http://prezi.com/bin/preziloader.swf" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="425" height="400" bgcolor="#ffffff" flashvars="prezi_id=lzofqasgefim&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0"></embed></object><br /><div class="prezi-player-links"><a href="http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/" title="">Java Garbage Collection and Heap Analysis</a> on <a href="http://prezi.com/">Prezi</a></div></div><div class="blogger-post-footer"><img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/9675872-1047395684627643442?l=bnagur.blogspot.com' alt='' /></div>		
+</div>
+    
+
+		</div>
+		 <footer class="footer">		        
+	<p class="pull-right"> <a href="/blog/Java-EE-6-Development-with-NetBeans-7" title="Previous Post: Java EE 6 Development with NetBeans 7">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   	<a href="/blog/NoSQL-Presentation" title="Next Post: NoSQL Presentation">Next Blog Post &raquo; </a> 	 </p>        
+	<p>Designed and built using <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>, <a href="http://jekyllrb.com/"  target="_blank">Jekyll</a>, and slightly modified by <a href="https://github.com/erjjones" target="_blank">Erjjones</a>.</p>
+	<p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+	<p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>	
+	<p>Page last generated on August  8, 2012</p>				
+</footer>
+	 </div>    
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+    <script src="/js/application.js"></script>
+	<script src="/js/custom.js" type="text/javascript"></script>	
+	
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'basav'; // required: replace example with your forum shortname
+
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function () {
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	</script>
+	
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29830549-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>	
+  </body>
+</html>
