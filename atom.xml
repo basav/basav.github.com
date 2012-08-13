@@ -4,9 +4,9 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Eric Jones</title>
- <link href="http://erjjones.github.com/atom.xml" rel="self"/>
- <link href="http://erjjones.github.com/"/>
+ <title>Basav Nagur</title>
+ <link href="http://basav.github.com/atom.xml" rel="self"/>
+ <link href="http://basav.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://basav.github.com</id>
  <author>
