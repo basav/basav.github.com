@@ -68,8 +68,8 @@ summary: It's about time..moving my blog to Github Pages
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'basav'; // required: replace example with your forum shortname
-			var disqus_identifier = '/blog/Moving-my-blog-to-Github-Pages';
-			var disqus_url = '/blog/Moving-my-blog-to-Github-Pages';
+			var disqus_identifier = '/blog/Moving-the-blog-to-Github-Pages';
+			var disqus_url = '/blog/Moving-the-blog-to-Github-Pages';
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
