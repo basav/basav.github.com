@@ -71,7 +71,7 @@ summary: It's about time..moving my blog to Github Pages
 				var disqus_shortname = 'basav'; // required: replace example with your forum shortname
 		        var disqus_identifier = '{{ page.url }}';
 				var disqus_url = 'http://basav.github.com{{ page.url }}';
-
+				console.log(disqus_url);
 				/* * * DON'T EDIT BELOW THIS LINE * * */
 				(function () {
 					var s = document.createElement('script'); s.async = true;
