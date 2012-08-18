@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-	
+	/*
 	$('#gf').text('GitHub Followers');
     $('#gfr').text('GitHub Repos');		
 	
@@ -30,4 +30,5 @@ jQuery(document).ready(function() {
 			'displayAccountInformations': false,
 			'displayLanguage': false
 		});
+*/
 });
