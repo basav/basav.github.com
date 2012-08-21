@@ -54,7 +54,7 @@ very close but Angular beat Ember.
             I'm quite familiar with <a href="http://www.playframework.org/">Play framework</a>. Both 1.2.x versions as well as Play
 2.0 Java version. I'm learning the basics of Angular JS. Angular folks have put
 up excellent <a href="http://docs.angularjs.org/tutorial">documentation</a> on their site with step-wise tutorials. I also like
-the structure of the tutorials - details step wise - focussing of TDD and
+the structure of the tutorials - step wise - focussing on TDD and
 leveraging git diff at each step to show how the code evolves. A neat and powerful
 concept to educate new frameworks and code-base.
         </p>
