@@ -8,3 +8,27 @@ tags: tech scala
 ---
 
 <a href="http://www.scala-lang.org/">Scala</a> has caught my interest lately. It has been due on my learning list. <br />Also - <a href="http://www.playframework.org/">Play Framework</a> (which I'm currently using) has got awesome Scala support (I see lot of answers and questions of Play and Scala on the Google groups). <br />I've read the <a href="http://www.blogger.com/www.scala-lang.org/docu/files/ScalaOverview.pdf" style="color: blue;">primer</a><span style="color: blue;">.</span>.looks very interesting. Now to do code something concrete.<br /><br />To download Scala (<a href="http://www.scala-lang.org/downloads/distrib/files/scala-2.9.1.final-installer.jar" style="color: blue;">latest as of today</a><span style="color: blue;">)</span> and install on Mac (Snow Leopard 10.8) is quite easy:<br /><pre class="brush: bash">curl -O http://www.scala-lang.org/downloads/distrib/files/scala-2.9.1.final-installer.jar<br /></pre>After it is downloaded, execute the below command<br /><pre class="brush: bash">java -jar scala-2.9.1.final-installer.jar<br /></pre><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-qERD1fXVzaw/ToBWAEYQbmI/AAAAAAAAAec/NEdt9148QdA/s1600/screenshot_12.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="246" src="http://3.bp.blogspot.com/-qERD1fXVzaw/ToBWAEYQbmI/AAAAAAAAAec/NEdt9148QdA/s320/screenshot_12.jpg" width="320" /></a></div>I installed scala at this location<br /><pre class="brush: bash">~/scala<br /></pre>Add the executable to the path.<br /><pre class="brush: bash">vim .profile<br /># append or add to the PATH variable ~/scala/bin<br />export PATH=$PATH:~/scala/bin<br /></pre>(or to the bash profile i.e. vim .bash_profile)<br />Open a terminal and type <b>scala</b> and you should see the below output<br /><pre class="brush: bash">Welcome to Scala version 2.9.1.final (Java HotSpot(TM) 64-Bit Server VM, Java 1.6.0_26).<br />Type in expressions to have them evaluated.<br />Type :help for more information.<br /><br />scala&gt; <br /></pre>Try the below example:<br /><pre class="brush: bash">scala&gt; val numbers = Map(1 -&gt; "one", 2 -&gt; "two")<br />numbers: scala.collection.immutable.Map[Int,java.lang.String] = Map(1 -&gt; one, 2 -&gt; two)<br /><br />scala&gt; numbers.get(2)<br />res0: Option[java.lang.String] = Some(two)<br /><br />scala&gt; numbers.get(3)<br />res1: Option[java.lang.String] = None<br /></pre>To quit the interpreter, just type quit.<br />To begin -&nbsp; here is the awesome link on <a href="http://www.scala-lang.org/node/1305" style="color: blue;">Learning Scala for beginners</a>.<br />I also installed Scala Eclipse IDE - a <a href="http://www.scala-ide.org/" style="color: blue;">plugin</a> for Scala development on Eclipse.<br /><br />Until next time...<div class="blogger-post-footer"><img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/9675872-8682527675842948786?l=bnagur.blogspot.com' alt='' /></div>
+
+<div class="row">
+	<div class="span3 columns">&nbsp;</div>
+    <div class="span9 columns">    
+		<h2>Comments Section</h2>
+	    <p>Feel free to comment on the post but keep it clean and on topic.</p>	
+		<div id="disqus_thread"></div>
+		<!-- Put this just before the closing body tag of your web page -->
+		<script type="text/javascript">
+				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				var disqus_shortname = 'basav'; // required: replace example with your forum shortname
+		        var disqus_identifier = '{{ page.url }}';
+				var disqus_url = 'http://basav.github.com{{ page.url }}';
+				/* * * DON'T EDIT BELOW THIS LINE * * */
+				(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+			</script>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	</div>
+</div>
