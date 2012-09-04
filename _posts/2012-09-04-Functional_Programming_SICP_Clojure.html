@@ -1,0 +1,146 @@
+--- 
+layout: post
+title: Functional Programming - SICP - Clojure
+category: coding learning 
+tags: sicp clojure github 
+year: 2012
+month: 09
+day: 04
+published: true 
+summary:
+---
+<div class="row">
+      <div class="span3 columns well">
+        <h3>About this topic</h3>
+        <p>Short blurb of FP, SICP and Clojure</p>
+        <br>
+        <h3>Topic buzz</h3>
+        <p>What others are thinking. Add to the conversation and
+          generate some chatter.</p>
+        <p><a href="https://twitter.com/share"
+            class="twitter-share-button" data-via="basav">Tweet</a></p>
+        <p><g:plusone size="medium"></g:plusone></p>
+        <br>
+        <h3>Read later</h3>
+        <p>Save this article for a later read or point of reference.        
+	<a href="http://www.instapaper.com/hello2?url=http://basav.github.com{{ page.url }}&amp;title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">+Instapaper</a>
+        </p>
+        <br>
+      </div>
+      <div class="span8 columns">
+        <h2>Functional Programming
+        </h2>
+        <p> <a href="http://en.wikipedia.org/wiki/Functional_programming">Functional
+
+            Programming</a> is hard. Especially for experienced folks
+          who have been working with <a href="http://en.wikipedia.org/wiki/Object-oriented_design">
+            Object oriented </a> concepts all these years. More-over
+          universities are including Java as the mainstream language in
+          the course curriculum and moving away from C or Lisp
+          completely. Check this <a href="http://www.joelonsoftware.com/articles/ThePerilsofJavaSchools.html">fantastic article</a> by Joel Spolsky - who highlights the <b>adverse effect</b> of such a shift.&nbsp; He writes how important it
+          is to understand the concept of pointers and functional
+          programming constructs. Agreed that pointers are no more used
+          in any production code these days and neither functional
+          languages are widely adopted - but these are required to
+          understand the very <i><b>fundamentals</b></i> of computer
+          programming and how to build complex software. He writes "<i>.....You
+            can't understand a line of code in Linux, or, indeed, any
+            operating system, without really understanding pointers.
+            Without understanding functional programming, you can't
+            invent <a href="http://en.wikipedia.org/wiki/Map_reduce">MapReduce</a>,
+            the algorithm that makes Google so massively scalable. The
+            terms Map and Reduce come from <a href="http://en.wikipedia.org/wiki/Lisp">Lisp</a> and
+            functional programming..."
+          </i></p>
+			<p>
+				The greatest benefit of functional programming is that - Systems built with FP are <b> concurrency ready without any modifications.  </b>
+				This is because functions (and functions of functions and so on :) ) in functional programming are <b>stateless </b>- absolutely <b> no mutable state</b>. 
+			    No piece of data in a FP is modified twice by the same thread, let alone by two different threads - a very important fact. 
+				</p>
+ 
+        <hr>
+        <h2>SICP
+        </h2>
+ 		<p>
+        There is no better way to learn the concepts of functional and
+        recursive programming - other than from excellent <a href="http://sicp.csail.mit.edu/Fall-2007/">course
+      </a> created
+        by the best university in the world - <a href="http://en.wikipedia.org/wiki/MIT">MIT</a>.
+        <a href="http://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs">SICP
+
+        </a>is a textbook published by <a href="http://en.wikipedia.org/wiki/MIT_Press">MIT Press</a>
+        and it was formerly used to teach introductory programming class
+        for students at MIT and other various universities.&nbsp; MIT
+        has set a very high bar and the course material is hard.
+        Fortunately there are about 20 actual video lectures shot at MIT
+        are available <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/">online</a>
+        which help in digesting some of the tough concepts. Plus there
+        are <a href="https://www.google.com/#hl=en&amp;sclient=psy-ab&amp;q=sicp+study+group">study-groups</a>,
+        <a href="http://stackoverflow.com/questions/tagged/sicp">stackoverflow</a>
+        to help crack some tough nuts.
+        </p>
+		<p align="center">
+        <img alt="SICP book cover image" src="http://mitpress.mit.edu/sicp/full-text/book/cover.jpg" height="300px" width="200px">
+		</p>
+		<p>
+        The <i><b>eval-apply </b></i>loop on the above front cover
+        show the relationship between <a href="http://en.wikipedia.org/wiki/Homoiconicity">data and code</a>  and the <i><b>lambda</b></i>
+        emphasizing that functions are indeed type of data. Thinking functions as first-class objects helps in
+        understanding the important concept of <b>abstraction </b>and
+        building large scale complex systems greatly benefits from this understanding - which is missing in languages like Java & C		</p>
+        <hr>
+        <h2>Clojure
+        </h2>
+ 		<p>
+		 <a href="http://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a> is one of the oldest programming language as has a very long history. This language never dies - and it has come back as Clojure on JVM. <a href="http://en.wikipedia.org/wiki/Clojure">Clojure</a>	is a recent dialect of Lisp created by Rich Hickey. Rich calls Clojure as a modern Lisp.	
+		</p>
+		<p>Read more about Clojure and the <a href="http://clojure.org/rationale">rationale of building another list dialect </a> on the official site - <a hef="http://clojure.org">http://clojure.org</a></p>
+		<hr>
+        <h2> SICP + Clojure
+        </h2>
+ 		<p>
+		<a href="http://sicpinclojure.com/">SICP using Clojure</a> is a dream combination with pure functional constructs on the very powerful JVM platform - what more a developer can ask for. I have ordered and bought and book on SICP and started learning it - solving the exercises using Clojure. An Indian edition is available on <a href="http://www.indiaplaza.com/structure-interpretation-of-computer-programs-2-e-harold-abelson-gerald-jay-sussman-julie-sussman/books/9788173715273.htm">here</a> for purchase. I'll be pushing the solutions to the exercises on the git. It is an uphill task but it helps in the long run to become a better programmer :).
+		</p>
+      </div>
+      <div class="span9 column">
+        <p class="pull-right">{% if page.previous.url %} {% endif %} 
+			{% if page.next.url %} {% endif %} </p>
+      </div>
+    </div>
+	<div class="row">
+	    <div class="span3 columns">&nbsp;</div>
+	    <div class="span9 columns">    
+	        <h2>Comments Section</h2>
+	        <p>Feel free to comment on the post but keep it clean and on topic.</p> 
+	        <div id="disqus_thread"></div>
+	        <!-- Put this just before the closing body tag of your web page -->
+	        <script type="text/javascript">
+	                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	                var disqus_shortname = 'basav'; // required: replace example with your forum shortname
+	                var disqus_identifier = '{{ page.url }}';
+	                var disqus_url = 'http://basav.github.com{{ page.url }}';
+	                console.log(disqus_url);
+	                /* * * DON'T EDIT BELOW THIS LINE * * */
+	                (function() {
+	                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	            })();
+	            </script>
+	        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	    </div>
+	</div>
+
+	<!-- Twitter -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	<!-- Google + -->
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/plusone.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+
